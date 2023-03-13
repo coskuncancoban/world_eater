@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7400999505977874181}
   - component: {fileID: 2012730156089093427}
   - component: {fileID: 5247307106035683786}
-  - component: {fileID: 8084862820809318533}
-  - component: {fileID: 3976784611039900732}
+  - component: {fileID: 1586932704161113633}
   - component: {fileID: 1162847812}
+  - component: {fileID: 3976784611039900732}
   m_Layer: 0
   m_Name: Alien_Design3
   m_TagString: Planet
@@ -88,7 +88,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &8084862820809318533
+--- !u!54 &1586932704161113633
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,6 +104,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
+--- !u!135 &1162847812
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5831871307699053846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.55
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3976784611039900732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,16 +131,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minTorque: 20
   _maxTorque: 200
---- !u!135 &1162847812
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5831871307699053846}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.55
-  m_Center: {x: 0, y: 0, z: 0}

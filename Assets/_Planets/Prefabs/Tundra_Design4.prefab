@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8037157909114900676}
   - component: {fileID: 1356355577840462578}
   - component: {fileID: 4750795531549611531}
-  - component: {fileID: 2333246338708576653}
-  - component: {fileID: 93243804006641099}
+  - component: {fileID: -5496451795184298460}
   - component: {fileID: 1287626943}
+  - component: {fileID: 93243804006641099}
   m_Layer: 0
   m_Name: Tundra_Design4
   m_TagString: Planet
@@ -88,7 +88,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &2333246338708576653
+--- !u!54 &-5496451795184298460
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,6 +104,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
+--- !u!135 &1287626943
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6472483355967693527}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.55
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &93243804006641099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,16 +131,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minTorque: 20
   _maxTorque: 200
---- !u!135 &1287626943
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6472483355967693527}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.55
-  m_Center: {x: 0, y: 0, z: 0}

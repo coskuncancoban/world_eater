@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4668320238417531340}
   - component: {fileID: 4436663811670010874}
   - component: {fileID: 7975517949884634883}
-  - component: {fileID: 5842951074560613711}
-  - component: {fileID: 1333927145142825612}
+  - component: {fileID: 9126081744773591438}
   - component: {fileID: 1190095591}
+  - component: {fileID: 1333927145142825612}
   m_Layer: 0
   m_Name: Earth-Like_Design3
   m_TagString: Planet
@@ -90,7 +90,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &5842951074560613711
+--- !u!54 &9126081744773591438
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,6 +106,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
+--- !u!135 &1190095591
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8544011689462473695}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.55
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1333927145142825612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,16 +133,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minTorque: 20
   _maxTorque: 200
---- !u!135 &1190095591
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8544011689462473695}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.55
-  m_Center: {x: 0, y: 0, z: 0}

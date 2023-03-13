@@ -12,6 +12,7 @@ Used assets from AssetStore;
 * 3D Black Hole Shader from Mikołaj Bystrzyński
 * Cartoon FX Remaster Free from Jean Moreno
 * Breakable Asteroids from Chadderbox
+
 *** Thanks ***
 
 All assets above, are free to commercial use and you can find them on unity asset store.
