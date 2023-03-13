@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rotator : MonoBehaviour
+public class PlanetRotator : MonoBehaviour
 {
     [SerializeField] private float _minTorque = 20f;
     [SerializeField] private float _maxTorque = 200f;
